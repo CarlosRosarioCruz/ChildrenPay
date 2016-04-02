@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0444857F1CAFEF7100DF95B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0444857E1CAFEF7100DF95B8 /* AppDelegate.swift */; };
+		044485811CAFEF7100DF95B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044485801CAFEF7100DF95B8 /* ViewController.swift */; };
+		044485841CAFEF7100DF95B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044485821CAFEF7100DF95B8 /* Main.storyboard */; };
+		044485861CAFEF7100DF95B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044485851CAFEF7100DF95B8 /* Assets.xcassets */; };
+		044485891CAFEF7100DF95B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044485871CAFEF7100DF95B8 /* LaunchScreen.storyboard */; };
+		044485941CAFEF7100DF95B8 /* ChildrenPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044485931CAFEF7100DF95B8 /* ChildrenPayTests.swift */; };
+		0444859F1CAFEF7100DF95B8 /* ChildrenPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0444859E1CAFEF7100DF95B8 /* ChildrenPayUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		044485901CAFEF7100DF95B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044485731CAFEF7100DF95B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0444857A1CAFEF7100DF95B8;
+			remoteInfo = ChildrenPay;
+		};
+		0444859B1CAFEF7100DF95B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044485731CAFEF7100DF95B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0444857A1CAFEF7100DF95B8;
+			remoteInfo = ChildrenPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0444857B1CAFEF7100DF95B8 /* ChildrenPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChildrenPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0444857E1CAFEF7100DF95B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		044485801CAFEF7100DF95B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		044485831CAFEF7100DF95B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		044485851CAFEF7100DF95B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		044485881CAFEF7100DF95B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0444858A1CAFEF7100DF95B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0444858F1CAFEF7100DF95B8 /* ChildrenPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChildrenPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		044485931CAFEF7100DF95B8 /* ChildrenPayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildrenPayTests.swift; sourceTree = "<group>"; };
+		044485951CAFEF7100DF95B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0444859A1CAFEF7100DF95B8 /* ChildrenPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChildrenPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0444859E1CAFEF7100DF95B8 /* ChildrenPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildrenPayUITests.swift; sourceTree = "<group>"; };
+		044485A01CAFEF7100DF95B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		044485781CAFEF7100DF95B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0444858C1CAFEF7100DF95B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044485971CAFEF7100DF95B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044485721CAFEF7100DF95B8 = {
+			isa = PBXGroup;
+			children = (
+				0444857D1CAFEF7100DF95B8 /* ChildrenPay */,
+				044485921CAFEF7100DF95B8 /* ChildrenPayTests */,
+				0444859D1CAFEF7100DF95B8 /* ChildrenPayUITests */,
+				0444857C1CAFEF7100DF95B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0444857C1CAFEF7100DF95B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0444857B1CAFEF7100DF95B8 /* ChildrenPay.app */,
+				0444858F1CAFEF7100DF95B8 /* ChildrenPayTests.xctest */,
+				0444859A1CAFEF7100DF95B8 /* ChildrenPayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0444857D1CAFEF7100DF95B8 /* ChildrenPay */ = {
+			isa = PBXGroup;
+			children = (
+				0444857E1CAFEF7100DF95B8 /* AppDelegate.swift */,
+				044485801CAFEF7100DF95B8 /* ViewController.swift */,
+				044485821CAFEF7100DF95B8 /* Main.storyboard */,
+				044485851CAFEF7100DF95B8 /* Assets.xcassets */,
+				044485871CAFEF7100DF95B8 /* LaunchScreen.storyboard */,
+				0444858A1CAFEF7100DF95B8 /* Info.plist */,
+			);
+			path = ChildrenPay;
+			sourceTree = "<group>";
+		};
+		044485921CAFEF7100DF95B8 /* ChildrenPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				044485931CAFEF7100DF95B8 /* ChildrenPayTests.swift */,
+				044485951CAFEF7100DF95B8 /* Info.plist */,
+			);
+			path = ChildrenPayTests;
+			sourceTree = "<group>";
+		};
+		0444859D1CAFEF7100DF95B8 /* ChildrenPayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0444859E1CAFEF7100DF95B8 /* ChildrenPayUITests.swift */,
+				044485A01CAFEF7100DF95B8 /* Info.plist */,
+			);
+			path = ChildrenPayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0444857A1CAFEF7100DF95B8 /* ChildrenPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044485A31CAFEF7100DF95B8 /* Build configuration list for PBXNativeTarget "ChildrenPay" */;
+			buildPhases = (
+				044485771CAFEF7100DF95B8 /* Sources */,
+				044485781CAFEF7100DF95B8 /* Frameworks */,
+				044485791CAFEF7100DF95B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChildrenPay;
+			productName = ChildrenPay;
+			productReference = 0444857B1CAFEF7100DF95B8 /* ChildrenPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0444858E1CAFEF7100DF95B8 /* ChildrenPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044485A61CAFEF7100DF95B8 /* Build configuration list for PBXNativeTarget "ChildrenPayTests" */;
+			buildPhases = (
+				0444858B1CAFEF7100DF95B8 /* Sources */,
+				0444858C1CAFEF7100DF95B8 /* Frameworks */,
+				0444858D1CAFEF7100DF95B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044485911CAFEF7100DF95B8 /* PBXTargetDependency */,
+			);
+			name = ChildrenPayTests;
+			productName = ChildrenPayTests;
+			productReference = 0444858F1CAFEF7100DF95B8 /* ChildrenPayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		044485991CAFEF7100DF95B8 /* ChildrenPayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044485A91CAFEF7100DF95B8 /* Build configuration list for PBXNativeTarget "ChildrenPayUITests" */;
+			buildPhases = (
+				044485961CAFEF7100DF95B8 /* Sources */,
+				044485971CAFEF7100DF95B8 /* Frameworks */,
+				044485981CAFEF7100DF95B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0444859C1CAFEF7100DF95B8 /* PBXTargetDependency */,
+			);
+			name = ChildrenPayUITests;
+			productName = ChildrenPayUITests;
+			productReference = 0444859A1CAFEF7100DF95B8 /* ChildrenPayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		044485731CAFEF7100DF95B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Carlos Rosario";
+				TargetAttributes = {
+					0444857A1CAFEF7100DF95B8 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					0444858E1CAFEF7100DF95B8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 0444857A1CAFEF7100DF95B8;
+					};
+					044485991CAFEF7100DF95B8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 0444857A1CAFEF7100DF95B8;
+					};
+				};
+			};
+			buildConfigurationList = 044485761CAFEF7100DF95B8 /* Build configuration list for PBXProject "ChildrenPay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 044485721CAFEF7100DF95B8;
+			productRefGroup = 0444857C1CAFEF7100DF95B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0444857A1CAFEF7100DF95B8 /* ChildrenPay */,
+				0444858E1CAFEF7100DF95B8 /* ChildrenPayTests */,
+				044485991CAFEF7100DF95B8 /* ChildrenPayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		044485791CAFEF7100DF95B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044485891CAFEF7100DF95B8 /* LaunchScreen.storyboard in Resources */,
+				044485861CAFEF7100DF95B8 /* Assets.xcassets in Resources */,
+				044485841CAFEF7100DF95B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0444858D1CAFEF7100DF95B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044485981CAFEF7100DF95B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		044485771CAFEF7100DF95B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044485811CAFEF7100DF95B8 /* ViewController.swift in Sources */,
+				0444857F1CAFEF7100DF95B8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0444858B1CAFEF7100DF95B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044485941CAFEF7100DF95B8 /* ChildrenPayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044485961CAFEF7100DF95B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0444859F1CAFEF7100DF95B8 /* ChildrenPayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		044485911CAFEF7100DF95B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0444857A1CAFEF7100DF95B8 /* ChildrenPay */;
+			targetProxy = 044485901CAFEF7100DF95B8 /* PBXContainerItemProxy */;
+		};
+		0444859C1CAFEF7100DF95B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0444857A1CAFEF7100DF95B8 /* ChildrenPay */;
+			targetProxy = 0444859B1CAFEF7100DF95B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		044485821CAFEF7100DF95B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044485831CAFEF7100DF95B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		044485871CAFEF7100DF95B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044485881CAFEF7100DF95B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		044485A11CAFEF7100DF95B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		044485A21CAFEF7100DF95B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		044485A41CAFEF7100DF95B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChildrenPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChildrenPayDevelopers.ChildrenPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		044485A51CAFEF7100DF95B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChildrenPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChildrenPayDevelopers.ChildrenPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		044485A71CAFEF7100DF95B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChildrenPayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChildrenPayDevelopers.ChildrenPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChildrenPay.app/ChildrenPay";
+			};
+			name = Debug;
+		};
+		044485A81CAFEF7100DF95B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChildrenPayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChildrenPayDevelopers.ChildrenPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChildrenPay.app/ChildrenPay";
+			};
+			name = Release;
+		};
+		044485AA1CAFEF7100DF95B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChildrenPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChildrenPayDevelopers.ChildrenPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChildrenPay;
+			};
+			name = Debug;
+		};
+		044485AB1CAFEF7100DF95B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChildrenPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChildrenPayDevelopers.ChildrenPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChildrenPay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		044485761CAFEF7100DF95B8 /* Build configuration list for PBXProject "ChildrenPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044485A11CAFEF7100DF95B8 /* Debug */,
+				044485A21CAFEF7100DF95B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044485A31CAFEF7100DF95B8 /* Build configuration list for PBXNativeTarget "ChildrenPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044485A41CAFEF7100DF95B8 /* Debug */,
+				044485A51CAFEF7100DF95B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		044485A61CAFEF7100DF95B8 /* Build configuration list for PBXNativeTarget "ChildrenPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044485A71CAFEF7100DF95B8 /* Debug */,
+				044485A81CAFEF7100DF95B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		044485A91CAFEF7100DF95B8 /* Build configuration list for PBXNativeTarget "ChildrenPayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044485AA1CAFEF7100DF95B8 /* Debug */,
+				044485AB1CAFEF7100DF95B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 044485731CAFEF7100DF95B8 /* Project object */;
+}
