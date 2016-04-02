@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04589CCD1CAF82F000021EA4 /* PayPalMobile in Frameworks */ = {isa = PBXBuildFile; fileRef = 04589CCC1CAF82F000021EA4 /* PayPalMobile */; };
 		047538DC1CAF7A1F007E798B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047538DB1CAF7A1F007E798B /* AppDelegate.swift */; };
 		047538DE1CAF7A1F007E798B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047538DD1CAF7A1F007E798B /* ViewController.swift */; };
 		047538E11CAF7A1F007E798B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047538DF1CAF7A1F007E798B /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04589CCC1CAF82F000021EA4 /* PayPalMobile */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PayPalMobile; sourceTree = "<group>"; };
 		047538D81CAF7A1F007E798B /* ChildrenPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChildrenPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		047538DB1CAF7A1F007E798B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		047538DD1CAF7A1F007E798B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04589CCD1CAF82F000021EA4 /* PayPalMobile in Frameworks */,
 				04A5CAD01CAF80BD00D0D5EE /* PayPalSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -80,6 +83,7 @@
 		047538CF1CAF7A1F007E798B = {
 			isa = PBXGroup;
 			children = (
+				04589CCC1CAF82F000021EA4 /* PayPalMobile */,
 				04A5CACF1CAF80BD00D0D5EE /* PayPalSDK */,
 				047538DA1CAF7A1F007E798B /* ChildrenPay */,
 				047538EF1CAF7A1F007E798B /* ChildrenPayTests */,
