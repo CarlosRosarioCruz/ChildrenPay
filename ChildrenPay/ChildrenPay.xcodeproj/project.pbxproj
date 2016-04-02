@@ -14,6 +14,7 @@
 		047538E61CAF7A1F007E798B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047538E41CAF7A1F007E798B /* LaunchScreen.storyboard */; };
 		047538F11CAF7A1F007E798B /* ChildrenPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047538F01CAF7A1F007E798B /* ChildrenPayTests.swift */; };
 		047538FC1CAF7A1F007E798B /* ChildrenPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047538FB1CAF7A1F007E798B /* ChildrenPayUITests.swift */; };
+		04A5CAD01CAF80BD00D0D5EE /* PayPalSDK in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A5CACF1CAF80BD00D0D5EE /* PayPalSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		047538F71CAF7A1F007E798B /* ChildrenPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChildrenPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		047538FB1CAF7A1F007E798B /* ChildrenPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildrenPayUITests.swift; sourceTree = "<group>"; };
 		047538FD1CAF7A1F007E798B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A5CACF1CAF80BD00D0D5EE /* PayPalSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PayPalSDK; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A5CAD01CAF80BD00D0D5EE /* PayPalSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		047538CF1CAF7A1F007E798B = {
 			isa = PBXGroup;
 			children = (
+				04A5CACF1CAF80BD00D0D5EE /* PayPalSDK */,
 				047538DA1CAF7A1F007E798B /* ChildrenPay */,
 				047538EF1CAF7A1F007E798B /* ChildrenPayTests */,
 				047538FA1CAF7A1F007E798B /* ChildrenPayUITests */,
@@ -484,6 +488,7 @@
 				047539021CAF7A1F007E798B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		047539031CAF7A1F007E798B /* Build configuration list for PBXNativeTarget "ChildrenPayTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				047539051CAF7A1F007E798B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		047539061CAF7A1F007E798B /* Build configuration list for PBXNativeTarget "ChildrenPayUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				047539081CAF7A1F007E798B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
