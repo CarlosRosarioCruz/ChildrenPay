@@ -14,6 +14,8 @@
 		04F7F2991CAF935A000628C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F7F2971CAF935A000628C6 /* LaunchScreen.storyboard */; };
 		04F7F2A41CAF935B000628C6 /* ChildrenPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7F2A31CAF935B000628C6 /* ChildrenPayTests.swift */; };
 		04F7F2AF1CAF935B000628C6 /* ChildrenPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7F2AE1CAF935B000628C6 /* ChildrenPayUITests.swift */; };
+		04F7F2BD1CAF942D000628C6 /* PayPalMobile in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F7F2BC1CAF942D000628C6 /* PayPalMobile */; };
+		04F7F2BF1CAF9457000628C6 /* PayPal-iOS-SDK-Sample-App in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F7F2BE1CAF9457000628C6 /* PayPal-iOS-SDK-Sample-App */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		04F7F2AA1CAF935B000628C6 /* ChildrenPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChildrenPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F7F2AE1CAF935B000628C6 /* ChildrenPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildrenPayUITests.swift; sourceTree = "<group>"; };
 		04F7F2B01CAF935B000628C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F7F2BC1CAF942D000628C6 /* PayPalMobile */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PayPalMobile; sourceTree = "<group>"; };
+		04F7F2BE1CAF9457000628C6 /* PayPal-iOS-SDK-Sample-App */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "PayPal-iOS-SDK-Sample-App"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F7F2BF1CAF9457000628C6 /* PayPal-iOS-SDK-Sample-App in Frameworks */,
+				04F7F2BD1CAF942D000628C6 /* PayPalMobile in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +83,8 @@
 		04F7F2821CAF935A000628C6 = {
 			isa = PBXGroup;
 			children = (
+				04F7F2BE1CAF9457000628C6 /* PayPal-iOS-SDK-Sample-App */,
+				04F7F2BC1CAF942D000628C6 /* PayPalMobile */,
 				04F7F28D1CAF935A000628C6 /* ChildrenPay */,
 				04F7F2A21CAF935B000628C6 /* ChildrenPayTests */,
 				04F7F2AD1CAF935B000628C6 /* ChildrenPayUITests */,
