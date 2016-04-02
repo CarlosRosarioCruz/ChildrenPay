@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ChildrenPay.xcodeproj">
+      location = "self:/Users/MAC/GitHub/SampleApp-Swift/ChildrenPay.xcodeproj">
    </FileRef>
 </Workspace>

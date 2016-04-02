@@ -4,7 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ChildrenPay.xcscheme</key>
+		<key>PayPal-iOS-SDK+cardio-Sample-App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>PayPal-iOS-SDK-Sample-App.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0444857A1CAFEF7100DF95B8</key>
+		<key>3E589F011AF042C000D6BCEA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>0444858E1CAFEF7100DF95B8</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>044485991CAFEF7100DF95B8</key>
+		<key>849BE6E716D4352100E03EEC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
