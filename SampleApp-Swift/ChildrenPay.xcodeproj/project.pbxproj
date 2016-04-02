@@ -164,7 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				849BE72B16D4402000E03EEC /* PayPalMobile */,
-				849BE6F116D4352100E03EEC /* MainApp */,
+				849BE6F116D4352100E03EEC /* ChildrenPay */,
 				849BE6EA16D4352100E03EEC /* Frameworks */,
 				849BE6E916D4352100E03EEC /* Products */,
 			);
@@ -205,7 +205,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		849BE6F116D4352100E03EEC /* MainApp */ = {
+		849BE6F116D4352100E03EEC /* ChildrenPay */ = {
 			isa = PBXGroup;
 			children = (
 				849BE70316D4352100E03EEC /* MainStoryboard_iPhone.storyboard */,
@@ -215,7 +215,7 @@
 				214D225F1C91CE280007D05B /* AppDelegate.swift */,
 				849BE6F216D4352100E03EEC /* Supporting Files */,
 			);
-			name = MainApp;
+			name = ChildrenPay;
 			path = "PayPal-iOS-SDK-Sample-App";
 			sourceTree = "<group>";
 		};
